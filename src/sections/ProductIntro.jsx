@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import ImagePlaceholder from '../components/ImagePlaceholder.jsx'
+import holdersImg from '../assets/modular_holders.webp'
 import { SpecCard } from '../components/SpecLabel.jsx'
 import './ProductIntro.css'
 
@@ -41,7 +41,12 @@ function ProductIntro() {
         </div>
 
         <div className="product-intro-visual">
-          <ImagePlaceholder label="Modular block holders — lotion bottle, jar & tray configurations — product photo pending" />
+          <img
+            src={holdersImg}
+            alt="Two assembled modular fibre-block holders, each built from columns and a flat roof panel: one holding a jar with a copper lid, the other a smaller jar, both on a sandy surface with lavender sprigs"
+            width="668"
+            height="1086"
+          />
         </div>
       </div>
     </section>

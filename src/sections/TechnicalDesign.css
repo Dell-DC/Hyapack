@@ -10,11 +10,9 @@
   align-items: center;
 }
 
-.technical-visual img,
-.technical-visual .image-placeholder {
+.technical-visual img {
   width: 100%;
   height: auto;
-  min-height: 22rem;
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card-rest);
   background: var(--white);

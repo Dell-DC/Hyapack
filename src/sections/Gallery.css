@@ -12,6 +12,7 @@
 
 .gallery-item {
   margin: 0;
+  aspect-ratio: 4 / 3;
   border-radius: var(--radius-card);
   overflow: hidden;
   box-shadow: var(--shadow-card-rest);
@@ -25,7 +26,7 @@
   display: block;
 }
 
-.gallery-item-wide figcaption {
+.gallery-item figcaption {
   position: absolute;
   left: 0;
   right: 0;
@@ -59,13 +60,5 @@
 @media (max-width: 760px) {
   .gallery-grid {
     grid-template-columns: 1fr;
-  }
-
-  .gallery-item-wide {
-    aspect-ratio: 4 / 3;
-  }
-
-  .gallery-item-placeholder {
-    aspect-ratio: 4 / 3;
   }
 }

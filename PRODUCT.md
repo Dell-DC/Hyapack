@@ -56,11 +56,13 @@ Core line: "Transforming invasive water hyacinth into modular, protective and mu
 
 Real supplied assets to use as-is (no other photography should be invented/generated — leave clearly labeled placeholders where a real photo is not yet supplied):
 - `hyapack-logo.png` / `hyapack-icon.png` — brand logo / icon mark.
-- `hyapack-modular-kit.png` — overview shot: three assembled modular holders (lotion-bottle stand, jar stand, small recessed base tray holding a kraft box) plus the loose individual blocks/columns/connectors they're built from, on a styled surface with woven mat, plant and lavender props. Primary hero/overview image for the modular system.
-- `hyapack-modular-exploded.png` — closer exploded-assembly view: one holder's blocks shown separated in mid-air above its base with the bottle in place (showing how the blocks surround the product), plus two assembled jar-holder variants. Useful as the "how it assembles" / technical-design image in place of the old single-tray CAD drawing.
+- `modular_multi.png` — overview shot: three assembled modular holders (lotion-bottle stand, jar stand, small recessed base tray holding a kraft box) plus the loose individual blocks/columns/connectors they're built from, on a styled surface with woven mat, plant and lavender props. Used as the hero image.
+- `modular_container.png` — closer exploded-assembly source photo: one holder's blocks shown separated in mid-air above its base with the bottle in place, plus two assembled jar-holder variants, on the same styled surface. Used in full on the Gallery section; also the source for two crops:
+  - `modular_exploded.png` (left-side crop) — the exploded blocks + bottle only. Used as the Technical Design "how it assembles" image.
+  - `modular_holders.png` (right-side crop) — the two assembled jar-holder variants only. Used as the Product Introduction image.
 - `group4.png` — the Group 4 project team photo (office meeting-room setting), used as the team image with no invented names/titles.
 - `loose-fill-pellets.jpg` — a pile of water-hyacinth fibre pellets/loose-fill material on a plain background; raw-material shot, unchanged by the modular pivot.
-- Superseded (kept in `src/assets/` but no longer used on primary product-facing sections since they depict the earlier single-mould concept): `moulded-tray.png`, `moulded-tray-cad.png`, `productnotext.png`. Do not reintroduce these where they'd contradict the modular story without explicit instruction.
+- Superseded (kept in `src/assets/` but no longer used anywhere since they depict the earlier single-mould concept): `moulded-tray.png`, `moulded-tray-cad.png`, `productnotext.png`. Do not reintroduce these where they'd contradict the modular story without explicit instruction.
 
 No customer testimonials, case studies, press mentions, pricing, or certifications currently exist — do not fabricate any of these.
 

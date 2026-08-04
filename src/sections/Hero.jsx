@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
+import heroImg from '../assets/modular_multi.webp'
 import HyacinthMotif from '../components/HyacinthMotif.jsx'
-import ImagePlaceholder from '../components/ImagePlaceholder.jsx'
 import './Hero.css'
 
 function Hero() {
@@ -31,7 +31,12 @@ function Hero() {
         </div>
 
         <div className="hero-visual">
-          <ImagePlaceholder label="Modular block kit — hero product photo pending" />
+          <img
+            src={heroImg}
+            alt="A modular water hyacinth fibre block system: assembled holders for a lotion bottle, a jar, and a small kraft box, surrounded by the loose columns, panels and connector blocks they're built from"
+            width="1448"
+            height="1086"
+          />
           <div className="hero-visual-tag">
             <span className="eyebrow">Modular system</span>
             <span>Fibre blocks, arranged per product</span>

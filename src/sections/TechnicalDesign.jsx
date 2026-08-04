@@ -1,4 +1,4 @@
-import ImagePlaceholder from '../components/ImagePlaceholder.jsx'
+import explodedImg from '../assets/modular_exploded.webp'
 import { SpecCard } from '../components/SpecLabel.jsx'
 import './TechnicalDesign.css'
 
@@ -15,7 +15,12 @@ function TechnicalDesign() {
     <section className="technical" id="technical">
       <div className="container technical-grid">
         <div className="technical-visual">
-          <ImagePlaceholder label="Exploded assembly view — how the blocks arrange around a product — technical photo pending" />
+          <img
+            src={explodedImg}
+            alt="Exploded assembly diagram of a modular fibre-block holder: the roof panel, columns and connector blocks separated in mid-air above the base, with a lotion bottle in place showing how the blocks will surround it"
+            width="800"
+            height="1086"
+          />
         </div>
 
         <div className="technical-copy">

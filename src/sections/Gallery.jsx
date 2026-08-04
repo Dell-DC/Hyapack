@@ -1,4 +1,5 @@
 import pelletsImg from '../assets/loose-fill-pellets.jpg'
+import kitImg from '../assets/modular_container.webp'
 import './Gallery.css'
 
 function Gallery() {
@@ -21,9 +22,15 @@ function Gallery() {
             <figcaption>Dried water hyacinth fibre, ready for moulding</figcaption>
           </figure>
 
-          <div className="gallery-item gallery-item-placeholder" role="img" aria-label="Placeholder for modular block kit photography">
-            <span>Modular block kit photography coming soon</span>
-          </div>
+          <figure className="gallery-item">
+            <img
+              src={kitImg}
+              alt="The full modular kit: two assembled jar holders and the exploded view of a bottle holder's blocks, styled with a woven mat, plant and lavender"
+              width="1448"
+              height="1086"
+            />
+            <figcaption>The modular kit, fully assembled and exploded</figcaption>
+          </figure>
         </div>
       </div>
     </section>
