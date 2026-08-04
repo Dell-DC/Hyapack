@@ -2,7 +2,7 @@
 
 ---
 name: HYAPACK
-description: Sustainable protective packaging moulded from harvested water hyacinth fibre.
+description: Sustainable modular protective packaging built from harvested water hyacinth fibre blocks.
 ---
 
 # Design System: HYAPACK
@@ -11,13 +11,13 @@ description: Sustainable protective packaging moulded from harvested water hyaci
 
 **Creative North Star: "The Specimen & Spec Sheet"**
 
-The user's brief pins the world directly (natural, warm, editorial, cream ground, deep green accents, rounded cards, organic shapes, soft shadows, large product photography) — that palette and register is honored as-is, not re-rolled. What keeps it from reading as a generic eco-startup template is a second, borrowed grammar running underneath it: the vocabulary of a **botanical specimen label crossed with an engineering spec sheet**. HYAPACK already has the real artifact for this — `moulded-tray-cad.png` is a genuine dimensioned technical drawing. Every place the site needs to prove sourcing, traceability, or manufacturability, it borrows that drawing's conventions: thin rule lines, small-caps monospace labels, dimension tick marks, catalog-style field/value pairs (HARVESTED — Bang Sai, Ayutthaya / BATCH — WH-TRAY-01). The rest of the page — hero, lifecycle story, gallery, team — stays in the warm editorial register the brief asked for. The two registers meet at soft, rounded card edges: never a hard blueprint-blue panel, always cream-and-fibre-toned.
+The user's brief pins the world directly (natural, warm, editorial, cream ground, deep green accents, rounded cards, organic shapes, soft shadows, large product photography) — that palette and register is honored as-is, not re-rolled. What keeps it from reading as a generic eco-startup template is a second, borrowed grammar running underneath it: the vocabulary of a **botanical specimen label crossed with an engineering spec sheet**. HYAPACK's product itself reinforces this now that it's modular — a kit of standardised, catalog-able fibre blocks (columns, panels, bases, connectors) that get arranged per product, much like parts in a spec sheet. Every place the site needs to prove sourcing, traceability, or manufacturability, it borrows engineering-drawing conventions: thin rule lines, small-caps monospace labels, dimension tick marks, catalog-style field/value pairs (HARVESTED — Bang Sai, Ayutthaya / SYSTEM — Modular fibre block kit). The rest of the page — hero, lifecycle story, gallery, team — stays in the warm editorial register the brief asked for. The two registers meet at soft, rounded card edges: never a hard blueprint-blue panel, always cream-and-fibre-toned.
 
 This is an overview/persuade surface for B2B packaging buyers: it must read as credible material engineering, not a craft souvenir page and not a vague greenwashing pitch. Photography carries the proof; the specimen/spec-label system carries the credibility.
 
 **Key Characteristics:**
 - Cream page ground, deep forest-green headlines, muted sage and warm beige as supporting fields — never a stark white SaaS background.
-- Large, real product photography (the supplied tray/CAD/team images) as the primary evidence, not illustration.
+- Large, real product photography (the supplied modular-block/assembly/team images) as the primary evidence, not illustration.
 - A recurring "spec label" treatment (small-caps mono, thin rules, field/value pairs) marks technical and traceability content specifically — it is a signature detail, not the whole page's voice.
 - Rounded, soft-shadowed cards throughout; one organic leaf/flower silhouette motif echoing the logo's water-hyacinth flower, used sparingly as a background accent, never as a generic icon-in-circle grid.
 - Confirmed and softened claims only (see PRODUCT.md); nothing stated as certified or guaranteed.
@@ -33,7 +33,7 @@ Palette strategy: **Full palette** — cream, sage, beige, forest-green and a fi
 - **Copper Fibre** (#95502A): the technical/spec-label accent — dimension ticks, rule lines, field labels in the CAD and traceability sections, echoing the real copper pump hardware in the product photos (darkened from the hardware's literal tone to clear 4.5:1 text contrast on Cream/White). Used sparingly; never as a large fill.
 
 ### Tertiary
-- **Sage Fibre** (#8FA179): secondary section backgrounds and card fills, matched to the actual moulded tray's fibre color; carries the "material" feeling into flat UI surfaces.
+- **Sage Fibre** (#8FA179): secondary section backgrounds and card fills, matched to the actual fibre block color; carries the "material" feeling into flat UI surfaces.
 
 ### Neutral
 - **Cream Paper** (#F7F2E7): page background.

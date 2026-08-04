@@ -28,9 +28,11 @@
   margin-top: 2rem;
 }
 
-.product-intro-visual img {
+.product-intro-visual img,
+.product-intro-visual .image-placeholder {
   width: 100%;
   height: auto;
+  min-height: 22rem;
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card-rest);
 }

@@ -9,12 +9,12 @@ const USES = [
     step: '01',
     name: 'Seedling pots',
     summary:
-      'Detachable moulded cavities can be filled with soil and used to start seedlings before transplanting.',
+      'A recessed base block can be filled with soil and used to start seedlings before transplanting.',
     steps: [
-      'Gently separate an unused cavity from the tray along its moulded edge.',
-      'Add a small drainage hole in the base if the cavity will hold standing water.',
+      'Set aside a recessed base block from the kit once its holder is no longer needed.',
+      'Add a small drainage hole in the base if it will hold standing water.',
       'Fill with potting soil and sow or transplant a seedling as usual.',
-      'Transplant the seedling — cavity and all — once roots are established; the fibre is designed for biodegradability, subject to full-material testing.',
+      'Transplant the seedling — block and all — once roots are established; the fibre is designed for biodegradability, subject to full-material testing.',
     ],
     note: 'Confirm your soil and seedling type tolerate direct contact with the fibre before relying on this for sensitive plants.',
   },
@@ -22,9 +22,9 @@ const USES = [
     id: 'plant-mulch',
     step: '02',
     name: 'Plant mulch',
-    summary: 'The tray can be shredded and used as surface mulch around garden beds or potted plants.',
+    summary: 'Spare blocks can be shredded and used as surface mulch around garden beds or potted plants.',
     steps: [
-      'Break or shred the tray into small, loose fragments.',
+      'Break or shred a spare block into small, loose fragments.',
       'Spread a thin, even layer over the soil surface around existing plants.',
       'Top up as the layer breaks down over time.',
     ],
@@ -35,9 +35,9 @@ const USES = [
     step: '03',
     name: 'Moisture-retention fibre',
     summary:
-      'Broken into smaller pieces, the fibre can be placed beneath or mixed into potting soil to help retain moisture.',
+      'Broken into smaller pieces, spare blocks can be placed beneath or mixed into potting soil to help retain moisture.',
     steps: [
-      'Break the tray into coarse fragments, roughly bead- to coin-sized.',
+      'Break a spare block into coarse fragments, roughly bead- to coin-sized.',
       'Mix through the top few centimetres of potting soil, or layer beneath the surface.',
       'Water as usual — the fibre is intended to help slow moisture loss.',
     ],
@@ -47,11 +47,11 @@ const USES = [
     id: 'organiser',
     step: '04',
     name: 'Desk or drawer organiser',
-    summary: 'Used as-is, the moulded cavities hold stationery, jewellery, cables or other small items.',
+    summary: 'Arranged as-is, the blocks divide a drawer or desk into compartments for stationery, jewellery, cables or other small items — no cutting or shredding needed.',
     steps: [
-      'Wipe the tray clean and let it dry fully if it has been near liquids.',
-      'Place directly in a drawer or on a desk — no modification needed.',
-      'Use the larger cavity for bigger items and the side channels for small ones.',
+      'Wipe the blocks clean and let them dry fully if they have been near liquids.',
+      'Arrange the blocks directly in a drawer or on a desk to form compartments.',
+      'Use a column or panel block to divide sections, and a recessed base block for small loose items.',
     ],
   },
   {
@@ -59,13 +59,13 @@ const USES = [
     step: '05',
     name: 'Pet-enrichment piece',
     summary:
-      'Selected pieces can become a small scratching surface, play object, or one module in a larger enrichment structure.',
+      'Selected blocks can become a small scratching surface, play object, or one piece in a larger enrichment structure.',
     steps: [
-      'Inspect the tray for loose fragments before offering it to a pet.',
+      'Inspect each block for loose fragments before offering it to a pet.',
       'Introduce it under supervision as a scratching surface or chew-adjacent toy.',
       'Remove and discard once it begins to fray or break apart.',
     ],
-    note: 'Pet-safety testing has not yet been completed — supervise use closely and do not allow ingestion. A complete enclosure (e.g. a cat house) is a future concept; a single lotion-bottle tray is too small on its own.',
+    note: 'Pet-safety testing has not yet been completed — supervise use closely and do not allow ingestion. A complete enclosure (e.g. a cat house) is a future concept; one holder\'s worth of blocks is too small on its own.',
     warning: true,
   },
   {
@@ -73,9 +73,9 @@ const USES = [
     step: '06',
     name: 'Returnable packaging',
     summary:
-      'In a future closed-loop delivery or refill programme, the tray could potentially be returned and reused rather than repurposed at home.',
+      'In a future closed-loop delivery or refill programme, the blocks could potentially be returned and reused rather than repurposed at home.',
     steps: [
-      'Keep the tray in reasonable condition after use.',
+      'Keep the blocks in reasonable condition after use.',
       'Watch for return-and-reuse instructions from your HYAPACK point of contact once a programme is available.',
     ],
     note: 'This option is a potential future programme and is not yet operational.',
@@ -94,11 +94,13 @@ function MultiUseGuide() {
             <span>Multi-Use Guide</span>
           </p>
           <p className="eyebrow">Multi-Use Guide</p>
-          <h1>Six ways to give your tray a second life</h1>
+          <h1>Six ways to give your blocks a second life</h1>
           <p className="guide-lead">
-            A HYAPACK tray's job doesn't end at delivery. Here's how to reuse,
-            repurpose, return or responsibly dispose of it — with honest
-            notes on what's confirmed and what's still being tested.
+            A HYAPACK block kit's job doesn't end at delivery. Because each
+            holder is built from separate, reusable modules rather than one
+            fixed shape, there's more than one way to reuse, repurpose,
+            return or responsibly dispose of it — with honest notes on
+            what's confirmed and what's still being tested.
           </p>
         </div>
       </section>
@@ -166,17 +168,17 @@ function MultiUseGuide() {
             <p className="eyebrow">End of life</p>
             <h2>Composting &amp; disposal</h2>
             <p>
-              Once a tray has reached the end of its useful life, it may be
+              Once a block has reached the end of its useful life, it may be
               composted or biodegraded — this is designed for
               biodegradability, subject to full-material testing of the
               finished binder, coating and additive composition. Where
-              composting isn't available locally, dispose of the tray through
-              your standard waste stream.
+              composting isn't available locally, dispose of the blocks
+              through your standard waste stream.
             </p>
             <ul className="guide-compost-list">
               <li>Check whether your local composting facility accepts fibre-based packaging.</li>
               <li>Remove any non-fibre attachments (labels, tape) before composting.</li>
-              <li>If in doubt, dispose of the tray as general waste rather than contaminating a compost stream.</li>
+              <li>If in doubt, dispose of the blocks as general waste rather than contaminating a compost stream.</li>
             </ul>
           </div>
 
@@ -184,8 +186,8 @@ function MultiUseGuide() {
             <p className="eyebrow">Coming later</p>
             <h3>Batch traceability</h3>
             <p>
-              A QR-code or RFID system to trace an individual tray back to its
-              harvest batch, community source and processing date is a
+              A QR-code or RFID system to trace an individual block back to
+              its harvest batch, community source and processing date is a
               potential future feature — it is not yet operational.
             </p>
           </div>
@@ -196,7 +198,7 @@ function MultiUseGuide() {
         <div className="container guide-cta-inner">
           <div>
             <h2>Have a product that needs custom protection?</h2>
-            <p>See how HYAPACK designs a mould around your product's dimensions.</p>
+            <p>See how HYAPACK arranges modular blocks around your product's dimensions.</p>
           </div>
           <Link to="/#technical" className="btn btn-primary">
             See our technical design process

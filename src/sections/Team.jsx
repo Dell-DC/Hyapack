@@ -11,8 +11,8 @@ function Team() {
           <p>
             HYAPACK is developed by Group 4, a project team working through
             the material, sourcing and packaging-design questions behind
-            turning water hyacinth into custom protective packaging —
-            end to end, from community sourcing through to mould design.
+            turning water hyacinth into modular protective packaging —
+            end to end, from community sourcing through to module design.
           </p>
         </div>
 

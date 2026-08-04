@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
-import productImg from '../assets/productnotext.png'
+import ImagePlaceholder from '../components/ImagePlaceholder.jsx'
 import { SpecCard } from '../components/SpecLabel.jsx'
 import './ProductIntro.css'
 
 const SPECS = [
-  { field: 'Product', value: 'Lotion bottle protective tray' },
+  { field: 'Product', value: 'Lotion bottle & jar protective holders' },
   { field: 'Material', value: 'Water hyacinth fibre pulp' },
-  { field: 'Fit', value: 'Custom-moulded to bottle geometry' },
-  { field: 'Function', value: 'Cushions & locates bottle in transit' },
-  { field: 'Second life', value: 'Reusable, potentially repurposable' },
+  { field: 'Fit', value: 'Modular blocks arranged to product geometry' },
+  { field: 'Function', value: 'Cushions & locates product in transit' },
+  { field: 'Second life', value: 'Reusable, rebuildable, repurposable' },
 ]
 
 function ProductIntro() {
@@ -16,20 +16,23 @@ function ProductIntro() {
     <section className="product-intro" id="products">
       <div className="container product-intro-grid">
         <div className="product-intro-copy">
-          <p className="eyebrow">The first product</p>
-          <h2>A custom-moulded tray, built around one lotion bottle</h2>
+          <p className="eyebrow">The first products</p>
+          <h2>A modular block kit, built around your product</h2>
           <p className="product-intro-body">
-            HYAPACK's first custom design is a moulded water-hyacinth fibre
-            tray shaped to cradle a single lotion bottle and its pump — a
+            HYAPACK's modular system starts from a small library of
+            standardised water-hyacinth fibre blocks — columns, panels,
+            bases and connectors — arranged to cradle a specific product,
+            shown here holding a lotion bottle and a cream jar. It's a
             natural-fibre replacement for the foam inserts and bubble wrap
-            this kind of product usually ships in. The cavity locates the
-            bottle body and neck, protecting it in transit, while the fibre
-            itself keeps a visibly natural, uncoated appearance rather than
-            imitating plastic.
+            these products usually ship in, without casting a new mould for
+            every SKU: the blocks locate the product body and protect it in
+            transit, while keeping a visibly natural, uncoated appearance
+            rather than imitating plastic.
           </p>
           <p className="product-intro-body">
-            Once the product arrives, the tray's job isn't finished: it can
-            be reused as-is, or, in time, repurposed into something else
+            Once the product arrives, the blocks' job isn't finished: they
+            can be reused as the same holder, rebuilt into a different
+            configuration, or, in time, repurposed into something else
             entirely — see the{' '}
             <Link to="/multi-use-guide">Multi-Use Guide</Link> for the full
             set of ideas.
@@ -38,12 +41,7 @@ function ProductIntro() {
         </div>
 
         <div className="product-intro-visual">
-          <img
-            src={productImg}
-            alt="Three views of the water hyacinth tray: standing beside the lotion bottle on a woven mat, in profile, and viewed from above with the bottle seated in its custom cavity"
-            width="900"
-            height="600"
-          />
+          <ImagePlaceholder label="Modular block holders — lotion bottle, jar & tray configurations — product photo pending" />
         </div>
       </div>
     </section>

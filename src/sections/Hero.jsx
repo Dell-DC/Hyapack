@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import trayImg from '../assets/moulded-tray.png'
 import HyacinthMotif from '../components/HyacinthMotif.jsx'
+import ImagePlaceholder from '../components/ImagePlaceholder.jsx'
 import './Hero.css'
 
 function Hero() {
@@ -11,14 +11,14 @@ function Hero() {
         <div className="hero-copy">
           <p className="eyebrow">Water hyacinth, put to work</p>
           <h1>
-            Custom protective packaging, grown from an invasive weed.
+            Modular protective packaging, grown from an invasive weed.
           </h1>
           <p className="hero-lead">
             HYAPACK harvests invasive water hyacinth cleared from Thai
-            waterways and moulds it into custom-fit protective packaging —
-            replacing selected foam, plastic-insert and bubble-wrap
-            applications with a material that supports waterway cleanup and
-            local community income.
+            waterways and moulds it into a kit of modular fibre blocks —
+            arranged into a custom-fit holder per product, without a new
+            mould for every SKU, replacing selected foam, plastic-insert and
+            bubble-wrap applications.
           </p>
           <div className="hero-actions">
             <Link to="/multi-use-guide" className="btn btn-primary">
@@ -31,15 +31,10 @@ function Hero() {
         </div>
 
         <div className="hero-visual">
-          <img
-            src={trayImg}
-            alt="A custom-moulded water hyacinth fibre tray cradling a glass lotion bottle with a copper pump, resting on a woven mat"
-            width="900"
-            height="600"
-          />
+          <ImagePlaceholder label="Modular block kit — hero product photo pending" />
           <div className="hero-visual-tag">
-            <span className="eyebrow">Custom moulded</span>
-            <span>Lotion bottle tray, water hyacinth pulp</span>
+            <span className="eyebrow">Modular system</span>
+            <span>Fibre blocks, arranged per product</span>
           </div>
         </div>
       </div>

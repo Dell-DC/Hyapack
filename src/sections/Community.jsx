@@ -12,7 +12,7 @@ const SOURCING_SPECS = [
 const BENEFITS = [
   {
     name: 'Plastic reduction',
-    body: 'Custom water-hyacinth packaging can replace foam, plastic inserts and bubble wrap in suitable applications.',
+    body: 'Modular water-hyacinth packaging can replace foam, plastic inserts and bubble wrap in suitable applications.',
   },
   {
     name: 'Waterway support',

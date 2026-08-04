@@ -21,8 +21,8 @@ function Gallery() {
             <figcaption>Dried water hyacinth fibre, ready for moulding</figcaption>
           </figure>
 
-          <div className="gallery-item gallery-item-placeholder" role="img" aria-label="Placeholder for future finished-product photography">
-            <span>More product photography coming soon</span>
+          <div className="gallery-item gallery-item-placeholder" role="img" aria-label="Placeholder for modular block kit photography">
+            <span>Modular block kit photography coming soon</span>
           </div>
         </div>
       </div>

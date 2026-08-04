@@ -13,8 +13,8 @@ function Footer() {
           <div>
             <p className="footer-wordmark">HYAPACK</p>
             <p className="footer-tagline">
-              Transforming invasive water hyacinth into custom, protective and
-              multi-use packaging.
+              Transforming invasive water hyacinth into modular, protective
+              and multi-use packaging.
             </p>
           </div>
         </div>
